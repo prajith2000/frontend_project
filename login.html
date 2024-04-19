@@ -1,0 +1,37 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Login Redirect Example</title>
+	<script type="text/javascript">
+	 function check() {
+            // Get username and password from the form
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Check if username and password are correct
+            if (username === 'npkr' && password === '6379') {
+                // Redirect to home.html
+                window.location.href = 'home.html';
+            } else {
+                // Display error message
+                alert('Your username and password are incorrect.');
+            }
+    }
+
+    
+ 
+    </script>
+		
+</head>
+<body>
+    <h2>Login Form</h2>
+    <form id="test" action="home.html" class="loginform" onsubmit="check()">
+        <label for="username">Username:</label><br><br>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Password:</label><br><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <button type="submit" class="btn">Login</button>
+    </form>
+	<div id="err" style="color:red;text-align:center"></div>
+</body>
+</html>
