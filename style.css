@@ -1,0 +1,198 @@
+*{
+margin:0px;
+padding:0px;
+}
+body{
+
+}
+.topheader{
+	height:35px;
+	background-color:grey;
+	font-size:22px;
+	color:white;
+	padding:8px;
+}
+.header{
+	height:130px;
+	font-size:22px;
+
+}
+.row{
+	width:100%;
+	padding:10px;
+	padding-top:25px;
+}
+.header img{
+	width:60px;
+	height:60px;
+}
+.menubar{
+	height:40px;
+	background-color:grey;
+	font-size:22px;
+}
+.bodypart{
+	height:auto;
+	font-size:22px;
+	overflow:hidden;
+	
+}
+
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.hpart1{
+	width:5%;
+    float:left;
+}
+.hpart2{
+width:50%;
+float:left;
+font-size:45px;
+color:green;
+}
+.login{
+	text-decoration:none;
+	color:white;
+}
+.hpart3{
+	width:10%;
+	float:right;
+	background-color:green;
+	text-align:center;
+	padding:10px;
+	margin-right:45px;
+	border-radius:10px;
+}
+.hpart3:hover
+{
+	background-color:red;
+}
+.menubar ul{
+	width:100%;
+	list-style-type:none;
+}
+.menubar ul li{
+	float:left;
+	margin:5px 80px;
+}
+.menubar ul li a {
+	
+	text-decoration:none;
+	color:black;
+	font-size:18px;
+	padding:10px;
+	font-weight:bold;
+	font-family:'Arial';
+	padding-right:55px;
+	padding-left:55px;
+}
+.menubar ul li a:hover{
+	background-color:red;
+	color:yellow;
+	
+}
+.sectitle{
+	text-align:center;
+	text-decoration-line:none;
+	color:red;
+	font-weight:normal;
+
+}
+.Courses{
+	width:80%;
+	margin:0 auto auto;
+	
+}
+.Coursediv{
+	width:20%;
+	border:1px solid lightgrey;
+	box-shadow:3px 6px red;
+	height:250px;
+	border-radius:10px;
+	float:left;
+	margin:25px 15px;
+	text-align:center;
+	
+}
+.Coursediv img{
+	width:100%;
+	border-radius:10px;
+}
+.Coursediv a{
+	text-decoration:none;
+	font-size:30px;
+	width:100%;
+	color:black;
+
+}
+.about{
+	width:80%;
+	height:400px;
+	margin:0 auto auto;
+	text-align:center;
+	
+}
+h2{
+	color:blue;
+}
+.loginform{
+	text-align:center;
+	background-color:blue;
+	margin: 0;
+    padding: 0;
+    background: url('https://img.freepik.com/free-photo/high-angle-view-laptop-stationeries-blue-background_23-2147880456.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	text-align:center;
+	width:100%;
+}
+.loginform label {
+	display:block;
+	margin-bottom:5px;
+}
+.loginform input{
+	width:15%;
+	padding:5px;
+	border-radius:3px;
+	border:none;
+} 
+
+.btn{
+	width:5%;
+	padding:5px;
+	background-color:#007bff;
+	color:white;
+	border-radius:3px;
+	cursor:pointer;
+}
+.btn:hover{
+	background-color:#00b318;
+}
+.enroll{
+	background-color:green;
+	color:white;
+	text-align:center;
+	margin-top:10px;
+	width:200px;
+	padding:5px;
+	border-radius:10px;
+}
+.enroll:hover{
+	background-color:indigo;
+}
+	
+	
+
+	
+	
+
+
